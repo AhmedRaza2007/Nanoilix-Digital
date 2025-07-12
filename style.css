@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 body {
     background-color: black;
     font-family: "Roboto", sans-serif;
@@ -30,160 +31,287 @@ body {
     line-height: 80px;
     letter-spacing: -1.5px;
 }
-.p-text{
+
+.p-text {
     color: #DCDCDC;
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 27px;
-  font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Quicksand", sans-serif;
 }
-.button{
+
+.button {
     display: flex;
-align-items: flex-start;
-gap: 50px;
-padding: 15px 40px;
-border-radius: 40px;
-border: 1px solid #535353;
-background: linear-gradient(180deg, #121212 12%, #272727 48.13%, #121212 85%), #FFF;
-backdrop-filter: blur(12px);
+    align-items: flex-start;
+    gap: 50px;
+    padding: 15px 40px;
+    border-radius: 40px;
+    border: 1px solid #535353;
+    background: linear-gradient(180deg, #121212 12%, #272727 48.13%, #121212 85%), #FFF;
+    backdrop-filter: blur(12px);
 }
-.button2{
+
+.button2 {
     display: flex;
-align-items: flex-start;
-gap: 50px;
-padding: 12px 40px;
-border-radius: 40px;
-border: 1px solid #535353;
-background: linear-gradient(180deg, #121212 12%, #272727 48.13%, #121212 85%), #FFF;
-backdrop-filter: blur(12px);
+    align-items: flex-start;
+    gap: 50px;
+    padding: 12px 40px;
+    border-radius: 40px;
+    border: 1px solid #535353;
+    background: linear-gradient(180deg, #121212 12%, #272727 48.13%, #121212 85%), #FFF;
+    backdrop-filter: blur(12px);
 }
-.button3{
+
+.button3 {
     display: flex;
     padding: 15px 40px;
-align-items: flex-start;
-gap: 50px;
-border-radius: 40px;
-border: 1px solid #535353;
-background: linear-gradient(180deg, rgba(18, 18, 18, 0.40) 12%, rgba(39, 39, 39, 0.40) 48.13%, rgba(18, 18, 18, 0.40) 85%);
-backdrop-filter: blur(12px);
+    align-items: flex-start;
+    gap: 50px;
+    border-radius: 40px;
+    border: 1px solid #535353;
+    background: linear-gradient(180deg, rgba(18, 18, 18, 0.40) 12%, rgba(39, 39, 39, 0.40) 48.13%, rgba(18, 18, 18, 0.40) 85%);
+    backdrop-filter: blur(12px);
 }
-.text-liner-gradent{
-text-align: center;
-font-size: 45px;
-font-style: normal;
-font-weight: 500;
-line-height: 50px;
-letter-spacing: -1.35px;
-background: var(--gradient, linear-gradient(313deg, #9B9B9B 4.92%, #EDEBE8 49.51%, #9B9B9B 93.21%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+
+.text-liner-gradent {
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: -1.35px;
+    background: var(--gradient, linear-gradient(313deg, #9B9B9B 4.92%, #EDEBE8 49.51%, #9B9B9B 93.21%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.text-liner-gradent1{
-font-size: 45px;
-font-style: normal;
-font-weight: 500;
-line-height: 50px;
-letter-spacing: -1.35px;
-background: var(--gradient, linear-gradient(313deg, #9B9B9B 4.92%, #EDEBE8 49.51%, #9B9B9B 93.21%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+
+.text-liner-gradent1 {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: -1.35px;
+    background: var(--gradient, linear-gradient(313deg, #9B9B9B 4.92%, #EDEBE8 49.51%, #9B9B9B 93.21%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.box-liner-gradent{
-flex-shrink: 0;
-border-radius: 20px;
-border: 1px solid #535353;
-background: linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.20) 100%);
+
+.box-liner-gradent {
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #535353;
+    background: linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.20) 100%);
 }
-.call-button{
+
+.call-button {
     display: inline-flex;
-padding: 15px 40px;
-align-items: flex-start;
-gap: 50px;
-border-radius: 40px;
-border: 1px solid #535353;
-background: linear-gradient(180deg, #121212 12%, #272727 48.13%, #121212 85%), #FFF;
-backdrop-filter: blur(12px);
+    padding: 15px 40px;
+    align-items: flex-start;
+    gap: 50px;
+    border-radius: 40px;
+    border: 1px solid #535353;
+    background: linear-gradient(180deg, #121212 12%, #272727 48.13%, #121212 85%), #FFF;
+    backdrop-filter: blur(12px);
 }
-.p-liner-gradent{
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px;
-letter-spacing: -1.2px;
-background: var(--gradient, linear-gradient(313deg, #9B9B9B 4.92%, #EDEBE8 49.51%, #9B9B9B 93.21%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+
+.p-liner-gradent {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -1.2px;
+    background: var(--gradient, linear-gradient(313deg, #9B9B9B 4.92%, #EDEBE8 49.51%, #9B9B9B 93.21%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.text-light{
+
+.text-light {
     color: rgba(155, 155, 155, 0.20);
-font-size: 150px;
-font-style: normal;
-font-weight: 500;
-line-height: 106px;
-padding: 30px 0px 57px;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 106px;
+    padding: 30px 0px 57px;
 }
-.div-w{
+
+.div-w {
     width: 504px;
     height: 447px;
-flex-shrink: 0;
-border-radius: 20px;
-border-top: 1px solid #535353;
-border-left:1px solid #535353 ;
-border-right: 1px solid #535353;
-background: linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.20) 100%);
+    flex-shrink: 0;
+    border-radius: 20px;
+    border-top: 1px solid #535353;
+    border-left: 1px solid #535353;
+    border-right: 1px solid #535353;
+    background: linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.20) 100%);
 }
-.text-liner-gradent2{
-        color: rgba(155, 155, 155, 0.20);
-background: var(--gradient, linear-gradient(313deg, #9B9B9B 4.92%, #EDEBE8 49.51%, #9B9B9B 93.21%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+
+.text-liner-gradent2 {
+    color: rgba(155, 155, 155, 0.20);
+    background: var(--gradient, linear-gradient(313deg, #9B9B9B 4.92%, #EDEBE8 49.51%, #9B9B9B 93.21%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.div-2{
+
+.div-2 {
     width: 635px;
-height: 500px;
-flex-shrink: 0;
-border-radius: 20px;
-border: 1px solid #535353;
-background: linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.20) 100%);
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #535353;
+    background: linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.20) 100%);
 }
-.custom-heading{
-font-size: 150px;
-font-style: normal;
-font-weight: 500;
-letter-spacing: -4.5px;
-background: linear-gradient(313deg, rgba(155, 155, 155, 0.20) 4.92%, rgba(237, 235, 232, 0.20) 49.51%, rgba(155, 155, 155, 0.20) 93.21%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+
+.custom-heading {
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -4.5px;
+    background: linear-gradient(313deg, rgba(155, 155, 155, 0.20) 4.92%, rgba(237, 235, 232, 0.20) 49.51%, rgba(155, 155, 155, 0.20) 93.21%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.custom-h2{
+
+.custom-h2 {
     text-align: right;
-font-size: 40px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -1.2px;
+    background: var(--gradient, linear-gradient(313deg, #9B9B9B 4.92%, #EDEBE8 49.51%, #9B9B9B 93.21%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.custom-p {
+    color: #DCDCDC;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;/
+}
+
+.div-w1 {
+    width: 504px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border-top: 1px solid #535353;
+    border-left: 1px solid #535353;
+    border-right: 1px solid #535353;
+    background: linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.20) 100%);
+}
+
+.custom-size {
+    font-size: 20px;
+}
+
+.custom-bg {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: -1.35px;
+    background: var(--gradient, linear-gradient(313deg, #9B9B9B 4.92%, #EDEBE8 49.51%, #9B9B9B 93.21%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.custom-box {
+    padding: 18px 26px;
+    align-items: flex-start;
+    gap: 50px;
+    border-radius: 15px;
+    border: 1px solid #535353;
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.40) 0%, rgba(7, 7, 7, 0.40) 100%);
+}
+
+.custom-h3 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -1.2px;
+    background: var(--gradient, linear-gradient(313deg, #9B9B9B 4.92%, #EDEBE8 49.51%, #9B9B9B 93.21%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.custom-button {
+    display: inline-flex;
+    padding: 15px 40px;
+    align-items: flex-start;
+    gap: 50px;
+    color: #FFF;
+    border-radius: 40px;
+    border: 1px solid #535353;
+    background: linear-gradient(180deg, #121212 12%, #272727 48.13%, #121212 85%), #FFF;
+    backdrop-filter: blur(12px);
+}
+
+.carousel-img {
+    display: none;
+}
+
+.carousel-img.active {
+    display: block;
+}
+
+.custom-ui {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    background: var(--gradient, linear-gradient(313deg, #9B9B9B 4.92%, #EDEBE8 49.51%, #9B9B9B 93.21%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.custom-boxs{
+    border-radius: 25px;
+border: 1px solid #535353;
+background-color: #0C0C0C;
+}
+.custom-card{
+font-size: 24px;
 font-style: normal;
 font-weight: 500;
-line-height: 40px;
-letter-spacing: -1.2px;
+line-height: 29px;
+letter-spacing: -0.9px;
 background: var(--gradient, linear-gradient(313deg, #9B9B9B 4.92%, #EDEBE8 49.51%, #9B9B9B 93.21%));
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-.custom-p{
-    color: #DCDCDC;
-text-align: right;
+.custom-card-p{
 font-size: 16px;
 font-style: normal;
-font-weight: 400;
-line-height: 22px;/
+font-weight: 500;
+line-height: 18px; 
+letter-spacing: -0.48px;
+opacity: 0.5;
+background: var(--gradient, linear-gradient(313deg, #9B9B9B 4.92%, #EDEBE8 49.51%, #9B9B9B 93.21%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
-/* .custom-bg{
-    border-radius: 20px;
-border: 1px solid #9B9B9B;
-background: linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.20) 100%);
-} */
